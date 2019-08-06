@@ -11,9 +11,15 @@ using namespace std;
 
 int main() {
     //variable declarations and initializations below
-    int carb_grams = 30;
-    int protein_grams = 5;
-    int fat_grams = 15;
+    int carb_grams;
+    int protein_grams;
+    int fat_grams;
+    //in the console, we will provide a prompt!
+    cout << "Plox, I require ur grams of carbs, protein, and fat, separated by spaces." << endl;
+    //here, from the console, the user will follow directions, because she is attentive.
+    cin >> carb_grams;
+    cin >> protein_grams;
+    cin >> fat_grams;    
     //below is a declaration, intialization, and a computation
     int calories = calories = 4 * carb_grams + 4 * protein_grams + 9 * fat_grams;
     //output below
