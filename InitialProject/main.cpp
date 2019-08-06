@@ -17,9 +17,7 @@ int main() {
     //in the console, we will provide a prompt!
     cout << "Plox, I require ur grams of carbs, protein, and fat, separated by spaces." << endl;
     //here, from the console, the user will follow directions, because she is attentive.
-    cin >> carb_grams;
-    cin >> protein_grams;
-    cin >> fat_grams;    
+    cin >> carb_grams >> protein_grams >> fat_grams;
     //below is a declaration, intialization, and a computation
     int calories = calories = 4 * carb_grams + 4 * protein_grams + 9 * fat_grams;
     //output below
